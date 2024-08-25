@@ -55,6 +55,9 @@
             this.칮ㄱToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.자동줄바꿈ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.글꼴ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.확대하기축소하기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.확대ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.축소ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -116,6 +119,8 @@
             // 
             // 보기ToolStripMenuItem
             // 
+            this.보기ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.확대하기축소하기ToolStripMenuItem});
             this.보기ToolStripMenuItem.Name = "보기ToolStripMenuItem";
             this.보기ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.보기ToolStripMenuItem.Text = "보기";
@@ -249,6 +254,27 @@
             this.글꼴ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.글꼴ToolStripMenuItem.Text = "글꼴";
             // 
+            // 확대하기축소하기ToolStripMenuItem
+            // 
+            this.확대하기축소하기ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.확대ToolStripMenuItem,
+            this.축소ToolStripMenuItem});
+            this.확대하기축소하기ToolStripMenuItem.Name = "확대하기축소하기ToolStripMenuItem";
+            this.확대하기축소하기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.확대하기축소하기ToolStripMenuItem.Text = "확대하기/축소하기";
+            // 
+            // 확대ToolStripMenuItem
+            // 
+            this.확대ToolStripMenuItem.Name = "확대ToolStripMenuItem";
+            this.확대ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.확대ToolStripMenuItem.Text = "확대";
+            // 
+            // 축소ToolStripMenuItem
+            // 
+            this.축소ToolStripMenuItem.Name = "축소ToolStripMenuItem";
+            this.축소ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.축소ToolStripMenuItem.Text = "축소";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -294,6 +320,9 @@
         private System.Windows.Forms.ToolStripMenuItem 칮ㄱToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 자동줄바꿈ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 글꼴ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 확대하기축소하기ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 확대ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 축소ToolStripMenuItem;
     }
 }
 
